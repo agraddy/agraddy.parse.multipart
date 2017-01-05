@@ -1,0 +1,12 @@
+[
+	{
+		"headers": {"some-header": "Example"},
+		"content": "one\n",
+		"rawHeaders": ["Some-Header", "Example"]
+	},
+	{
+		"content": "two\n",
+		"headers": {},
+		"rawHeaders": []
+	}
+]
