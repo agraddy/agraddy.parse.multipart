@@ -11,6 +11,14 @@ process.chdir('test');
 
 actual = mod('AA', getText('basic.txt'));
 expected = getJSON('basic.json');
+//console.log('actual');
+//console.log(actual);
+//console.log('expected');
+//console.log(expected);
+tap.assert.deepEqual(actual, expected, 'Should be equal.');
+
+actual = mod('AA', getText('failure1.txt'));
+expected = getJSON('failure1.json');
 console.log('actual');
 console.log(actual);
 console.log('expected');
