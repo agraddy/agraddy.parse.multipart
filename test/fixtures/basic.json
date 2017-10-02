@@ -1,11 +1,11 @@
 [
 	{
 		"headers": {"some-header": "Example"},
-		"content": "one\n",
+		"content": "one\r\n",
 		"rawHeaders": ["Some-Header", "Example"]
 	},
 	{
-		"content": "two\n",
+		"content": "two\r\n",
 		"headers": {},
 		"rawHeaders": []
 	}

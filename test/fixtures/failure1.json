@@ -1,11 +1,11 @@
 [
 	{
 		"headers": {"some-header": "Example On Multiple Lines"},
-		"content": "one\n",
+		"content": "one\r\n",
 		"rawHeaders": ["Some-Header", "Example On Multiple Lines"]
 	},
 	{
-		"content": "two\n",
+		"content": "two\r\n",
 		"headers": {},
 		"rawHeaders": []
 	}
